@@ -98,7 +98,7 @@ main {
 }
 
 .section-02 {
-  background-image: url('image09.webp');
+  background-image: url('/public/image09.webp');
   width: 70%;
   display: flex;
   justify-content: center;
