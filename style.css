@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400;1,500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo {
+  width: 120px;
+}
+
+.site-name {
+  display: flex;
+  flex-direction: column;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
+}
+
+.site-name > h2 {
+  font-size: 2.8rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links > img {
+  width: 50px;
+  margin: 20px 0px;
+}
+
+.page-title {
+  width: 100%;
+  text-align: center;
+  font-size: 23px;
+  padding: 0 10%;
+  font-family: "Didact Gothic", sans-serif;
+  padding-top: 15px;
+  font-weight: 200;
+  color: burlywood;
+  border-bottom: 1px solid burlywood;
+  padding-bottom: 15px;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.menu > ul {
+  display: flex;
+  list-style: none;
+  gap: 130px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-01 {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 50px;
+}
+
+.section-01-content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pre-title {
+  font-size: 14px;
+}
+
+.section-02 {
+  background-image: url('image09.webp');
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  margin-top: 90px;
+}
+
+.section-03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 30px;
+}
+
+.section-04 {
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-04 > div {
+  width: 50%;
+  background-color: white;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 15vh;
+  align-items: center;
+}
